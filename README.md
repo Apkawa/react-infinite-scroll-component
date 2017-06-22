@@ -63,3 +63,4 @@ name | type | description
 **releaseToRefreshContent** | node | any JSX that you want to show the user, `default={<h3>Release to refresh</h3>}`
 **pullDownToRefreshThreshold** | number | minimum distance the user needs to pull down to trigger the refresh, `default=100px`
 **refreshFunction** | function | this function will be called, it should return the fresh data that you want to show the user
+**scrollTarget** | node | if instead of window use top wrapper with overflow scroll
